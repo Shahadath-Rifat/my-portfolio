@@ -40,14 +40,16 @@ header {
 h2 {  
     margin-top: 7px;
     margin-left: 12px;
-    font-size: 34px;
+    font-size: 39px;
     text-transform: uppercase;
     color:var(--app-dark-bg);
     font-weight: 500;
     letter-spacing: 0.2px;
     line-height: 56px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500px;
     text-decoration: none;
+    font: bold;
 }
 
 nav ul {
@@ -94,6 +96,29 @@ main {
     overflow: hidden; 
     height:calc(100vh - 60px - 65px);
 } 
+
+#about-me {
+    background-color: var(--app-orange-text);
+    margin-top: 0.3px;
+    height: 210px;
+}
+
+#about-me h3 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300px;
+    margin-bottom: 20px;
+    margin: 7px;
+
+}
+
+#about-me p {
+    margin-left: 12px;
+    margin-top: 12px;
+    letter-spacing: 0.7px;
+    font: bold;
+    font-size: 21px;
+}
 
 footer{
     height: 65px;
