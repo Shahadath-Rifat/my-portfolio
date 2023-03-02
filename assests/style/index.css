@@ -19,5 +19,90 @@
     --app-light-gray: #f9f9f9;
 }
 
+body {
+    background-color: var(--app-light-gray);
+}
 
-  
+.hero-banner {
+    height: 600px;
+    margin-inline: auto;
+    background: url("../image/ales-krivec-4miBe6zg5r0-unsplash.jpg") center center /cover no-repeat;
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 0.5);
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+h2 {  
+    margin-top: 7px;
+    margin-left: 12px;
+    font-size: 34px;
+    text-transform: uppercase;
+    color:var(--app-dark-bg);
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 56px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 40px;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 56px;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color:var(--app-black);
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    transition: color 0.25s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #0659ac;
+}
+
+nav ul li + li {
+    margin-left: 20px;
+}
+
+.container-text {
+    font-size: 29px;
+    color: var(--app-black);
+    font-weight: 400px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+main {
+    overflow: hidden; 
+    height:calc(100vh - 60px - 65px);
+} 
+
+footer{
+    height: 65px;
+    background-color:var(--app-orange);
+    text-align: center;
+}
+
+footer p{
+    font-size: 18px;
+    line-height: 60px;
+    color:var(--app-black);
+}
