@@ -99,7 +99,7 @@ main {
 
 #about-me {
     background-color: #c7c7c7;
-    height: 210px;
+    height: 250px;
 }
 
 #about-me h3 {
@@ -123,6 +123,7 @@ main {
     padding: 40px;
     text-align: center;
     background-color: #e0e0e0;
+    height: 420px;
 }
 
 #contact h3 {
