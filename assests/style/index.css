@@ -168,3 +168,42 @@ footer p{
     line-height: 60px;
     color:var(--app-black);
 }
+
+@media (max-width: 480px){
+    h2 {
+        font-size: 16px;
+    }
+    #about-me h3 {
+        font-size: 12px;
+    }
+    #about-me p {
+        font-size: 8px;
+    }
+}
+
+@media(max-width: 690px) {
+     h2 {
+        font-size: 20px;
+    }
+    nav ul li a {
+        font-size: 12px;
+    }
+    p {
+        font-size: 18px;
+    }
+    #about-me h3 {
+        font-size: 14px;
+    }
+    #about-me p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 880px){
+    #about-me h3 {
+        font-size: 19px;
+    }
+    #about-me p {
+        font-size: 16px;
+    }
+}
