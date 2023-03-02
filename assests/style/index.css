@@ -120,6 +120,42 @@ main {
     font-size: 21px;
 }
 
+#contact {
+    padding: 40px;
+    text-align: center;
+    background-color: var(--app-blue);
+}
+
+#contact h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.contact-icons a {
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 2em;
+	color: #333;
+}
+
+.contact-icons a:hover {
+	color: #555;
+}
+
+.fa {
+	font-family: "FontAwesome";
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+}
+
 footer{
     height: 65px;
     background-color:var(--app-orange);
